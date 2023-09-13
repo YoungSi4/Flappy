@@ -6,10 +6,11 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
     public static int score = 0;
-    // Start is called before the first frame update
+    public static int bestscore = 0;
+
     void Start()
     {
-        
+        score = 0;
     }
 
     // Update is called once per frame
